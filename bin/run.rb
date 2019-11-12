@@ -86,12 +86,15 @@ end
 
 users_ticket = prompt.select("Select a time", ticket_labels)
 
-p users_ticket
+puts "You're going to #{users_ticket.location.name} to see #{users_ticket.movie.title} at #{users_ticket.time}."
 
 
 
 
 
+
+
+# user_ticket.user = user
 
 # current_user_object = User.where(name: current_user)
 
